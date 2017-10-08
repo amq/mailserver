@@ -241,6 +241,7 @@ Github issue : https://github.com/hardware/mailserver/issues/118
 | **DBUSER** | MariaDB database username | *optional* | postfix
 | **DBNAME** | MariaDB database name | *optional* | postfix
 | **DBPASS** | MariaDB database password | **required** | null
+| **DBPASS_FILE** | MariaDB database password file, replaces **DBPASS** | *optional* | null
 | **REDIS_HOST** | Redis instance ip/hostname | *optional*  | redis
 | **REDIS_PORT** | Redis instance port | *optional*  | 6379
 | **REDIS_PASS** | Redis database password | *optional* | null
